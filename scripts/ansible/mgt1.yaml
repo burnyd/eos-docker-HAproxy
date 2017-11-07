@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no 
+  vars_files:
+  - "group_vars/all.yaml"
+
+  tasks:
+  - name: scp files over to leaf1a
+    raw: scp /vagrant/scripts/haproxy.cfg vagrant@leaf1a:/mnt/flash/
+
