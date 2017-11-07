@@ -1,4 +1,4 @@
-![Alt text](background.png.png?raw=true "HAproxy on EOS as a container")
+![Alt text](background.jpg.jpg?raw=true "HAproxy on EOS as a container")
 
 How to run a HAproxy docker container on Arista EOS as a reverse proxy.
 
